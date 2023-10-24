@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
+# Automatically detects text files and performs newline (LF) normalization.
 * text=auto
+
+# Everything under the Static directory should be handled by Git Large File Storage (LFS).
+Content/Static/** filter=lfs diff=lfs merge=lfs -text
