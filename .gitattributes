@@ -2,4 +2,4 @@
 * text=auto
 
 # Everything under the Static directory should be handled by Git Large File Storage (LFS).
-Content/Static/** filter=lfs diff=lfs merge=lfs -text
+# Content/Static/** filter=lfs diff=lfs merge=lfs -text
